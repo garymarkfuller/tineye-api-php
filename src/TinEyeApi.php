@@ -23,6 +23,8 @@ const API_BASE_URL = 'https://api.tineye.com/rest/';
 class TinEyeApi
 {
     private $client;
+    private string $api_key;
+    private string $api_url;
 
     /**
      * The API key is required to make a request and defaults to the TinEye sandbox key
